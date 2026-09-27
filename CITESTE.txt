@@ -1,0 +1,21 @@
+COCARDO — site static (HTML + CSS + JS, fără build)
+
+1) LINKURILE TALE (X, CA etc.)
+   Deschide index.html într-un editor de text și caută blocul:
+       YOUR LINKS — edit only this block.
+   Completează:
+       xUrl: "https://x.com/numele_tau",
+       contractAddress: "ADRESA_CONTRACTULUI",
+   Opțional: Telegram / TikTok / Chart în extraLinks (apar doar dacă au url).
+   Câmpurile lăsate "" apar ca "coming soon".
+
+2) PUBLICARE
+   Urcă TOT folderul cocardo-site (index.html + assets + vendor) pe orice
+   hosting static: Netlify (drag & drop), Vercel, GitHub Pages, cPanel etc.
+   Butonul de copiere CA funcționează cel mai bine pe https.
+
+3) CONȚINUT
+   assets/img    – pozele (WebP optimizate)
+   assets/video  – clip-01.mp4, clip-02.mp4 (H.264, merg în toate browserele)
+   assets/fonts  – fonturile Shrikhand și Nunito (locale, fără Google)
+   vendor        – React, htm, GSAP (locale, fără CDN)
